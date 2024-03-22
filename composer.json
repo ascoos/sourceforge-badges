@@ -1,0 +1,41 @@
+{
+    "name": "ascoos/sourceforge-badges",
+    "description": "The sourceforge-badges displays various badges and buttons of the well-known project hosting platform SourceForge. ",
+    "version": "1.0.0",
+    "license":"AGL-F (Ascoos General License - Free)",
+    "homepage": "https://apps.ascoos.com/sourceforge",
+    "authors": [
+        {
+            "name": "Drogidis Christos",
+            "homepage": "https://www.ascoos.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ascoos/sourceforge-badges/issues",
+        "source": "https://github.com/ascoos/sourceforge-badges"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "ascoos/sourceforge-badges",
+                "version": "1.0.0",
+                "type": "library",
+                "dist": [
+                    {
+                        "url": "https://dl.ascoos.com/pub/sourceforge-badges/sourceforge-badges-latest.zip",
+                        "type": "zip"
+                    },
+                    {
+                        "url": "https://github.com/ascoos/sourceforge-badges/releases/download/1.0.0/sourceforge-badges-1.0.0.zip",
+                        "type": "zip"
+                    }                    
+                ]
+            }
+        }
+    ],
+    "require": {
+        "php": ">=4.3"
+    }    
+}
