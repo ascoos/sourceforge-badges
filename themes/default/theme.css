@@ -1,0 +1,21 @@
+.container {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: baseline;
+    align-content: flex-start;
+    text-align: left !important;
+}
+
+.container div.sf-root {
+    width: 50%;
+    height: auto;
+    margin-left:auto;
+    padding: 1px;
+}
+
+.container div.sf-root:hover {
+    border: solid 1px #afafaf;
+    background-color: #efefef;
+    padding: 0;
+}
