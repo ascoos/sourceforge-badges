@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+article {
+    display: flex-box;
+    justify-content: space-between;
+    justify-items: baseline;
+    align-content: flex-start;
+    text-align: left !important;
+}
+
+.container {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: baseline;
+    align-content: flex-start;
+    text-align: left !important;
+}
+
+.container article div.sf-root {
+    width: 50%;
+    height: auto;
+    margin-left:auto;
+    padding: 1px;
+}
+
+.container article div.sf-root:hover {
+    border: solid 1px #afafaf;
+    background-color: #efefef;
+    padding: 0;
+}
