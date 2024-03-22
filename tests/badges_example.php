@@ -39,7 +39,9 @@
  use ASCOOS\FRAMEWORK\Libraries\SourceForge_Badges\TSFBudges;
  
  
-
+/**
+ *  The properties of the badge class.
+ */
 $args = [
     'id' => 600983,                             // Integer -- The project (group_id) code
     'title' => 'Ascoos Web Extended Studio',    // String  -- The title of the project
